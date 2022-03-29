@@ -28,6 +28,11 @@ const createWindow = () => {
 
   // Open the DevTools.
   mainWindow.webContents.openDevTools();
+
+  
+  mainWindow.on("oauth", function(){    
+    console.log("do oauth!");
+  })
 };
 
 // This method will be called when Electron has finished

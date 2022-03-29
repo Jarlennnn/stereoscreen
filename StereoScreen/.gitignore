@@ -87,3 +87,6 @@ typings/
 
 # Electron-Forge
 out/
+
+credentials.js
+tokens.json
